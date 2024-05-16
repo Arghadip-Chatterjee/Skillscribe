@@ -19,3 +19,4 @@ Skillscribe is an innovative platform designed to enhance learning and career de
 
 ## Why Choose Skillscribe
 Skillscribe offers a unique blend of AI-driven features tailored to enhance learning, skill development, and career advancement. By leveraging cutting-edge technology, Skillscribe simplifies the learning process, accelerates skill acquisition, and empowers users to achieve their professional goals efficiently. Whether you're preparing for interviews, studying for exams, or exploring new career opportunities, Skillscribe is your trusted companion on your journey to success.
+
