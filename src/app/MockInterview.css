@@ -1,0 +1,44 @@
+/* mockInterview.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .recorder-container {
+    margin-top: 20px;
+  }
+  
+  .buttons-container {
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
