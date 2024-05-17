@@ -8,24 +8,24 @@ export const TextParallaxContentExample = () => {
     <div className="bg-gray-200 bg-[radial-gradient(#b3b4b5_1px,transparent_2px)] [background-size:16px_16px] py-5">
       <TextParallaxContent
         imgUrl="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=2671&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        subheading="Collaborate"
-        heading="Built for all of us."
+        subheading="Confidently Prepared."
+        heading="Practice with AI. Ace you Interviews like a Pro!"
       >
-        <ExampleContent />
+        <AiMock />
       </TextParallaxContent>
       <TextParallaxContent
         imgUrl="https://images.unsplash.com/photo-1530893609608-32a9af3aa95c?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        subheading="Quality"
-        heading="Never compromise."
+        subheading="Create. Explore. Innovate."
+        heading="Your all-in-one AI toolkit for boundless possibilities."
       >
-        <ExampleContent />
+        <AISaas />
       </TextParallaxContent>
       <TextParallaxContent
         imgUrl="https://images.unsplash.com/photo-1504610926078-a1611febcad3?q=80&w=2416&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-        subheading="Modern"
-        heading="Dress for the best."
+        subheading="Empowered Learning"
+        heading="Design personalized courses with the click of a button."
       >
-        <ExampleContent />
+        <AICourse />
       </TextParallaxContent>
     </div>
   );
@@ -126,21 +126,73 @@ const OverlayCopy = ({
   );
 };
 
-const ExampleContent = () => (
+const AiMock = () => (
   <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
     <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
-      Additional content explaining the above card here
+      AI-Powered Interview Prep
     </h2>
     <div className="col-span-1 md:col-span-8">
       <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
-        blanditiis soluta eius quam modi aliquam quaerat odit deleniti minima
-        maiores voluptate est ut saepe accusantium maxime doloremque nulla
-        consectetur possimus.
+        Get the edge you need with our cutting-edge AI mock interviewer.
+        Experience realistic interviews tailored to your specific job target,
+        receive instant feedback on your answers, and identify areas for
+        improvement. Our AI technology analyzes your responses and provides
+        valuable insights to help you refine your interviewing skills.
       </p>
       <p className="mb-8 text-xl text-neutral-600 md:text-2xl">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-        reiciendis blanditiis aliquam aut fugit sint.
+        With our user-friendly platform, you can easily simulate a variety of
+        interview scenarios and receive expert feedback to boost your
+        confidence.
+      </p>
+      <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
+        Learn more <FiArrowUpRight className="inline" />
+      </button>
+    </div>
+  </div>
+);
+
+const AISaas = () => (
+  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
+    <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+      AI for Everyone
+    </h2>
+    <div className="col-span-1 md:col-span-8">
+      <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+        Unlock your creativity and supercharge your productivity with our
+        all-in-one AI platform. Whether you're seeking answers to complex
+        questions, composing unique music, producing eye-catching videos, or
+        crafting stunning visuals, our suite of intelligent bots is here to
+        empower you. Say goodbye to tedious tasks and hello to a world of
+        effortless creation.
+      </p>
+      <p className="mb-8 text-xl text-neutral-600 md:text-2xl">
+        From marketers and artists to educators and hobbyists, our platform is
+        your gateway to a new era of creative expression. Join us today and
+        discover the limitless potential of AI at your fingertips.
+      </p>
+      <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
+        Learn more <FiArrowUpRight className="inline" />
+      </button>
+    </div>
+  </div>
+);
+
+const AICourse = () => (
+  <div className="mx-auto grid max-w-5xl grid-cols-1 gap-8 px-4 pb-24 pt-12 md:grid-cols-12">
+    <h2 className="col-span-1 text-3xl font-bold md:col-span-4">
+      No More Lesson Planning Woes
+    </h2>
+    <div className="col-span-1 md:col-span-8">
+      <p className="mb-4 text-xl text-neutral-600 md:text-2xl">
+        Unlock the power of knowledge with our AI-driven course generator.
+        Transform any topic into a well-structured, engaging, and comprehensive
+        course. Save hours of research and lesson planning as our intelligent
+        algorithms curate content, design interactive activities, and create
+        assessments, all tailored to your desired learning outcomes.
+      </p>
+      <p className="mb-8 text-xl text-neutral-600 md:text-2xl">
+        Get the grades you deserve and become the master of your own education.
+        It's time to ditch the stress and make learning fun again!
       </p>
       <button className="w-full rounded bg-neutral-900 px-9 py-4 text-xl text-white transition-colors hover:bg-neutral-700 md:w-fit">
         Learn more <FiArrowUpRight className="inline" />

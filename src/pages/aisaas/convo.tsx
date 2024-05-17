@@ -1,5 +1,5 @@
 
-import CodePage from '../app/codepage'
+import CodePage from '@/app/codepage'
 import React from 'react'
 
 const Convo = () => {
