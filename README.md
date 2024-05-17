@@ -1,4 +1,6 @@
 # Skillscribe
+![Skillscribe](https://github.com/anuragverma108/Skillscribe/assets/129655645/307f2770-4212-4225-ba0f-216b244d6253)
+
 
 ## Description
 Skillscribe is an innovative platform designed to enhance learning and career development through AI-driven features. From mock interviews to personalized study resources and a comprehensive job portal, Skillscribe aims to streamline the process of skill acquisition and professional growth.
